@@ -1,0 +1,13 @@
+[package]
+name = "shaun_os"
+version = "0.1.0"
+edition = "2021"
+authors = ["Shaun Hamilton <shauhami020@gmail.com>"]
+
+# Target used: thumbv6m-none-eabi
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
